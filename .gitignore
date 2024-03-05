@@ -162,3 +162,5 @@ cython_debug/
 # VSCode
 .history
 test_dev
+test_test
+mymodules
