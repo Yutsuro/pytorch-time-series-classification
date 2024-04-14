@@ -254,10 +254,6 @@ class Classifier:
         
         print("-- Evaluation --")
 
-        # print(self.model.state_dict()==self.best_model_state_dict)
-        # is_equal = self.model.state_dict().keys() == self.best_model_state_dict.keys() and all(torch.equal(self.model.state_dict()[k], self.best_model_state_dict[k]) for k in self.model.state_dict())
-        # print(is_equal)
-        
         if with_best_model and self.best_model_state_dict is not None:
             # print(self.model.state_dict())
             self.model.load_state_dict(self.best_model_state_dict)

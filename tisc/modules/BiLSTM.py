@@ -42,19 +42,3 @@ class BiLSTMBuilder(Builder):
                                        num_features=self.num_features * 2,
                                        dropout_rate=self.dropout_rate)
 
-
-# def test_LSTM():
-#     import torch
-#     import numpy as np
-
-#     # Test LSTM
-#     lstm = LSTM(3, 256, 2)
-#     x = torch.from_numpy(np.random.rand(10, 5, 3)).float()
-#     y = lstm(x)
-#     assert y.shape == (10, 256)
-
-#     # Test BiLSTM
-#     lstm = BiLSTM(3, 256, 2)
-#     x = torch.from_numpy(np.random.rand(10, 5, 3)).float()
-#     y = lstm(x)
-#     assert y.shape == (10, 512)
