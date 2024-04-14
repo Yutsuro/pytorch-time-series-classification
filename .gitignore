@@ -162,3 +162,10 @@ cython_debug/
 # VSCode
 .history
 test_dev
+test_test
+mymodules
+print_testing
+tisc_output
+check.py
+myutils
+envtest
