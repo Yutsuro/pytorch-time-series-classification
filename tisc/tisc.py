@@ -7,7 +7,7 @@ import numpy as np
 import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
-import seaborn as sns; sns.set_theme()
+import seaborn as sns; sns.set_theme(font='IPAexGothic')
 
 from datetime import datetime
 from importlib import import_module
