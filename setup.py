@@ -15,7 +15,7 @@ with open('README.md', encoding='utf-8') as f:
 setup(
     name=package_name,
     description='Simple model creation and training framework for time series classification in Pytorch',
-    version='0.1.0',
+    version='0.1.1',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Yutsuro/pytorch-time-series-classification',
