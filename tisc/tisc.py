@@ -6,7 +6,9 @@ import random
 import numpy as np
 import torch.nn as nn
 import torch.optim as optim
+
 import matplotlib.pyplot as plt
+import matplotlib_fontja
 import seaborn as sns; sns.set_theme(font='IPAexGothic')
 
 from datetime import datetime

@@ -160,7 +160,7 @@ classifier.evaluate(test_loader,
 
 ## Supported models
 
-The models that can be used in version 0.1.0:
+The models that can be used in version 0.1.2:
 
 - LSTM
 - BiLSTM

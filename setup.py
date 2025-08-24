@@ -15,7 +15,7 @@ with open('README.md', encoding='utf-8') as f:
 setup(
     name=package_name,
     description='Simple model creation and training framework for time series classification in Pytorch',
-    version='0.1.1',
+    version='0.1.2',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Yutsuro/pytorch-time-series-classification',
@@ -27,7 +27,6 @@ setup(
     packages=find_packages(),
     install_requires=_requirements(),
     classifiers = [
-    'License :: OSI Approved :: Apache Software License',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
@@ -35,6 +34,7 @@ setup(
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
     'Programming Language :: Python :: 3 :: Only',
     'Topic :: Software Development :: Libraries :: Python Modules',
     ],
